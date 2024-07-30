@@ -12,7 +12,7 @@ jobs:
 
     - name: Update HTML file
       run: |
-        echo "Updated on $(date) >> main.html
+        echo "Updated on $(date) >> index.html
 
     - name: Commit changes
       env:
